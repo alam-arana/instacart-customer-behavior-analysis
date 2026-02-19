@@ -1,41 +1,29 @@
-# Instacart - Exploratory Data Analysis
+# Instacart Customer Behavior Analysis
 
-## 📌 Project Overview
-This project analyzes customer purchasing behavior using the Instacart dataset. The objective is to identify buying patterns, reorder trends, and product popularity to extract actionable business insights.
+This project explores customer purchasing behavior using a multi-table e-commerce dataset from Instacart.
 
----
+## Objective
 
-## 🎯 Objectives
-- Clean and preprocess raw datasets (orders, products, customers)
-- Analyze customer purchase frequency
-- Identify top-selling and most reordered products
-- Detect trends in reorder behavior
+To identify patterns in customer orders, product popularity, purchase timing, and reorder behavior in order to generate actionable insights about shopping habits.
 
----
+## Dataset Structure
 
-## 🛠 Tools & Technologies
+The dataset consists of five related tables representing orders, products, order details, aisles, and departments. The analysis integrates these tables to examine both user-level and product-level behavior.
+
+## Tools & Technologies
+
 - Python
 - Pandas
-- NumPy
-- Matplotlib / Seaborn
+- Matplotlib
 - Jupyter Notebook
 
----
+## Key Insights
 
-## 🔍 Key Insights
-- Identification of high-frequency reordered products
-- Peak purchasing behavior patterns
-- Product categories with highest demand
+- Customers show consistent purchasing habits across orders.
+- Certain products demonstrate high reorder rates, indicating stable demand.
+- Orders tend to concentrate around specific hours of the day.
+- Behavioral patterns suggest opportunities for personalized recommendations and targeted promotions.
 
----
+## Conclusion
 
-## 📂 Dataset
-Instacart open dataset (Kaggle version).
-
----
-
-## 🚀 Skills Demonstrated
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Business Insight Extraction
-- Data Visualization
+The analysis demonstrates how structured exploratory data analysis can uncover meaningful behavioral patterns in e-commerce environments and support data-driven decision making.
